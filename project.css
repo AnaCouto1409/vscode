@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+*{
+    margin: 5 auto;
+    padding: 0.2px;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    margin-left: 60px;
+}
+#menu{
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-left: 30px;
+    display: inline;
+}
+#menu-h{
+    max-width: 200px;
+    list-style-type: none;
+    padding: 0;
+    max-width: 200px;
+    text-decoration: none;
+    display: inline;
+}
+#menu-h ul {
+    text-decoration: none;
+}
+#menu-h li a {
+    padding: 15px;
+    text-decoration: none;
+    color: #7e459b;
+    margin-left: 500px;
+}
+.menu-h ul li a {
+    text-decoration: none;
+}
+.menu li a :hover {
+    background-color: #7e459b;
+    text-decoration: none;
+}
+/* botão*/
+.btn{
+border-radius: 1.1rem;
+border: 1px solid;
+}
+.btn-1{
+    border-radius: 1.1rem;
+    text-transform: uppercase;
+    font-size: normal;
+    font-weight: bold;
+    border: 5px solid #ff8c00;
+    background-color: white;
+}
+.btn-2{
+    border-radius: 1.1rem;
+    text-transform: uppercase;
+    font-size: normal;
+    font-weight: bolder;
+    border: 5px solid #FF8C00;
+    background-color: #FF8C00;
+}
+header > h1{
+    font-weight: bold;
+    font-size: 5rem;
+    display: inline-flex;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+header >h2{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+/* Frame */
+.frame {
+    position: absolute;
+    font-size: 0;
+    font-weight: bolder;
+    position: absolute;
+    width: 9.5px;
+    height: 6px;
+    left: 140px;
+    top: 500px;
+}
+/* Holiday finder */
+.frame > p{
+position: absolute;
+left: 15%;
+right: 25%;
+top: 60%;
+bottom: 25%;
+font-weight: bolder;
+font-weight: 500px;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+color: #202336;
+/* identical to box height */
+color: #202336;
+}
+.retangulo{
+    border: 1.5px solid #7e459b;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 0.1rem;
+    left: 15%;
+    right: 50%;
+    top: 80%;
+    bottom: 60%;
+    line-height: 27px;
+}
+.retangulo1{
+    position: absolute;
+    width: 150px;
+    left: 15%;
+    right: 82.88%;
+    top: 90%;
+    bottom: 89.82%;
+    font-size: 0.8rem;
+    line-height: 25px;
+    border: 1.5rem solid #7e459b;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 6px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+    color: white;
+    mix-blend-mode: normal;
+}
+.retangulo2{
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    left: 5px;
+    top: 100px;
+    border: 1.5rem solid #7e459b;
+    box-sizing: border-box;
+    border-radius: 6px;
+     /* or 150% */
+     display: flex;
+     align-items: center;
+     background-color: white;
+     mix-blend-mode: normal;
+}
+.retangulo3 {
+    position: absolute;
+    width: 150px;
+    left: 2000%;
+    right: 82.88%;
+    top: 90%;
+    bottom: 89.82%;
+    font-size: 0.8rem;
+    line-height: 25px;
+    border: 1.5rem solid #7e459b;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 6px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+    color: white;
+    mix-blend-mode: normal;
+}
+.retangulo4{
+    position: absolute;
+    width: 150px;
+    left: 2000%;
+    right: 82.88%;
+    top: 1700%;
+    bottom: 89.82%;
+    font-size: 0.8rem;
+    line-height: 25px;
+    border: 1.5rem solid #7e459b;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 6px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+    color: white;
+    mix-blend-mode: normal;
+}
+/* Explore */
+.explore-btn5 {
+position: relative;
+left: 60%;
+right: 80%;
+top: 3000%;
+border-radius: 3rem;
+border: 0.1rem solid #7e459b;
+box-sizing: border-box;
+bottom: 60%;
+font-weight: bold;
+font-size: 17px;
+line-height: 25px;
+width: 150px;
+height: 20px;
+text-transform: uppercase;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #7e459b;
+mix-blend-mode: normal;
+}
+.footercontainer{
+    margin-top: 950px;
+    margin-right: 150px;
+    margin-left: 150px;
+    font-size: 1rem;
+    color:#7e459b;
+    background-color: antiquewhite;
+}
